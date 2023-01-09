@@ -12,3 +12,21 @@
 <button [disabled]="checkedDisabled">Button</button>
 
 <img [src]="imgSrc" [title]="imgTitle" [alt]="imgTitle">
+
+<br>
+<br>
+
+<hr>
+
+<h2>Event Biding</h2>
+
+<button (click)="alertaInfo($event)">Evento</button>
+
+<div (mousemove)="mouseMoveTest($event)" style="background: red; width: 300px; height: 300px"></div>
+
+{{ position.x }} - {{ position.y }}
+
+<br>
+<br>
+
+<hr>
