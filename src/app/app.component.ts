@@ -3,9 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-   <app-data-biding></app-data-biding>
-   <router-outlet></router-outlet>
-   `
+  <!--
+    <app-title *ngIf="destruir"></app-title>
+    <br>
+    <button (click)="destruirComponent()">Destruir componente</button>
+  -->
+  <app-diretivas-estruturais></app-diretivas-estruturais>
+  <router-outlet></router-outlet>
+  `,
 
 })
 export class AppComponent implements OnInit {
