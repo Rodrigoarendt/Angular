@@ -9,6 +9,13 @@ export class DiretivasEstruturaisComponent {
 
   public condition: boolean = true;
   public conditionClick: boolean = true;
+
+  public list: Array<{ nome: string, idade:number}> = [
+    { nome: "Rodrigo Arendt", idade: 36},
+    { nome: "Realda Arendt", idade: 30},
+    { nome: "Sofia Arendt", idade: 9},
+    { nome: "Thassya Arendt", idade: 10}
+  ];
   constructor() { }
 
   ngOnInit(): void {
@@ -29,6 +36,14 @@ export class DiretivasEstruturaisComponent {
     }else{
       this.conditionClick = true;
     }
+  }
+
+  public onClickAddList(){
+    this.list.push({nome: "Nay", idade: 31});
+  }
+
+  public onClickEventList(event: number){
+    this.list.splice(event, 1)
   }
 
 }
