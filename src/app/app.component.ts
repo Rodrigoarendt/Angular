@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
     <br>
     <button (click)="destruirComponent()">Destruir componente</button>
   -->
-  <app-diretivas-estruturais></app-diretivas-estruturais>
+  <!-- <app-diretivas-estruturais></app-diretivas-estruturais> -->
+
+  <app-diretivas-atributos></app-diretivas-atributos>
   <router-outlet></router-outlet>
   `,
 
