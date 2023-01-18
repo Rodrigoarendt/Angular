@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
     <br>
     <button (click)="destruirComponent()">Destruir componente</button>
   -->
-  <!-- <app-diretivas-estruturais></app-diretivas-estruturais> -->
+  <!-- <app-diretivas-estruturais></app-diretivas-estruturais>
 
   <app-diretivas-atributos>
     <h1>Aulas de Diretivas Atributo</h1>
@@ -20,7 +20,11 @@ import { Component, OnInit } from '@angular/core';
     <hr>
   </app-diretivas-atributos>
 
-  <router-outlet></router-outlet>
+  <router-outlet></router-outlet>-->
+
+  <app-diretivas-estruturais></app-diretivas-estruturais>
+
+
   `,
 
 })

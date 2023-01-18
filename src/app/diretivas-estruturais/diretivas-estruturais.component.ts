@@ -9,6 +9,7 @@ export class DiretivasEstruturaisComponent {
 
   public condition: boolean = true;
   public conditionClick: boolean = true;
+  public date:Date = new Date();
 
   public list: Array<{ nome: string, idade:number}> = [
     { nome: "Rodrigo Arendt", idade: 36},
