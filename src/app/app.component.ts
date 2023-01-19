@@ -18,12 +18,10 @@ import { Component, OnInit } from '@angular/core';
   <app-diretivas-atributos>
     <h1>Rodrigo Arendt</h1>
     <hr>
-  </app-diretivas-atributos>
+  </app-diretivas-atributos>-->
 
-  <router-outlet></router-outlet>-->
-
-  <app-diretivas-estruturais></app-diretivas-estruturais>
-
+   <app-new-component></app-new-component>
+   <router-outlet></router-outlet>
 
   `,
 
